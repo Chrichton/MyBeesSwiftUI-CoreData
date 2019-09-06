@@ -14,6 +14,8 @@
 		FF5EC9C42321828D00CE0D6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF5EC9C32321828D00CE0D6A /* Assets.xcassets */; };
 		FF5EC9C72321828D00CE0D6A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF5EC9C62321828D00CE0D6A /* Preview Assets.xcassets */; };
 		FF5EC9CA2321828D00CE0D6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF5EC9C82321828D00CE0D6A /* LaunchScreen.storyboard */; };
+		FF5EC9D32321924900CE0D6A /* Location+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5EC9D12321924900CE0D6A /* Location+CoreDataClass.swift */; };
+		FF5EC9D42321924900CE0D6A /* Location+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5EC9D22321924900CE0D6A /* Location+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		FF5EC9C62321828D00CE0D6A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FF5EC9C92321828D00CE0D6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF5EC9CB2321828D00CE0D6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF5EC9D12321924900CE0D6A /* Location+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Location+CoreDataClass.swift"; sourceTree = "<group>"; };
+		FF5EC9D22321924900CE0D6A /* Location+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Location+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 		FF5EC9B92321828C00CE0D6A /* MyBeesSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				FF5EC9D12321924900CE0D6A /* Location+CoreDataClass.swift */,
+				FF5EC9D22321924900CE0D6A /* Location+CoreDataProperties.swift */,
 				FF5EC9BA2321828C00CE0D6A /* AppDelegate.swift */,
 				FF5EC9BC2321828C00CE0D6A /* SceneDelegate.swift */,
 				FF5EC9C12321828C00CE0D6A /* ContentView.swift */,
@@ -151,7 +157,9 @@
 			files = (
 				FF5EC9BB2321828C00CE0D6A /* AppDelegate.swift in Sources */,
 				FF5EC9BD2321828C00CE0D6A /* SceneDelegate.swift in Sources */,
+				FF5EC9D42321924900CE0D6A /* Location+CoreDataProperties.swift in Sources */,
 				FF5EC9C22321828C00CE0D6A /* ContentView.swift in Sources */,
+				FF5EC9D32321924900CE0D6A /* Location+CoreDataClass.swift in Sources */,
 				FF5EC9C02321828C00CE0D6A /* MyBeesSwiftUI.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
